@@ -9,11 +9,11 @@ import UseState from './UseState.jsx'
 export default function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <MenuResto />
       <TernaryOP />
       <Object />
-      <Buttons />
+      <Buttons /> */}
       <UseState />
 
       {/* <Props hari="Senin" mood="😂" bulan="January" />
