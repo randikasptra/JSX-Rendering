@@ -1,4 +1,4 @@
-export default function TernaryOP() {
+export default function TernaryOP(){
     const isMakanan = true;
     const styleTO = {
         marginTop: "2rem",
