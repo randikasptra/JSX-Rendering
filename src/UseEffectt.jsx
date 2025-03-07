@@ -1,4 +1,4 @@
-
+import { useState,useEffect } from "react";
 
 export default function UseEffectt() {
     const[countLike,setCountLike] = useState(0);
