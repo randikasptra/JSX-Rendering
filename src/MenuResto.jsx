@@ -10,7 +10,6 @@ export default function MenuResto() {
             <ul>
                 <li>Ayam Bakar <i>Rp. 20.000</i></li>
                 <li>Nasi Goreng <i>Rp. 17.000</i></li>
-                
             </ul>
         </div>
     )

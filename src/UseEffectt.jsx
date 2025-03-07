@@ -1,18 +1,17 @@
 
 
-export default function UseEffectt(){
-    const [countLike, setCountLike] = useState(0);
-    const[countDisLike,setCountDislike] = useState(0);
+export default function UseEffectt() {
+    const[countLike,setCountLike] = useState(0);
+    const[countDislike,setCountDislike] = useState(0);
 
     useEffect(() => {
-        console.log(`Like ${countLike} | DisLike ${countDisLike} | SetCount`);
-    }, [countLike, countDisLike]);
+        console.log(`Like ${countLike} | Dislike ${countDislike} | SetCount`);
+    }, [countLike, countDislike]);
 
-    return(
+    return (
         <>
-        <button onClick={() => setLike(like + 1)}>Like</button>
-        <button onClick={() => setDislike(disLike + 1)}>Dislike</button>
+        <button onClick={() => setCountLike(countLike + 1)}>Like</button>
+        <button onClick={() => setCountDislike(countDislike + 1)}>Dislike</button>
         </>
     )
-
 }

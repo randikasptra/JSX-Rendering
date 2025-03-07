@@ -10,15 +10,15 @@ import UseEffectt from './UseEffectt.jsx'
 export default function App() {
   return (
     <>
-      {/* <Header />
+      <Header />
       <MenuResto />
       <TernaryOP />
       <Object />
-      <Buttons />
+      {/* <Buttons /> */}
       <UseState />
       <Props hari="Senin" mood="😂" bulan="January" />
       <hr /> 
-      <Props hari="Selasa" mood="😊" bulan="February" /> */}
+      <Props hari="Selasa" mood="😊" bulan="February" />
       <UseEffectt />
 
     </>
