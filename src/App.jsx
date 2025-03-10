@@ -6,21 +6,12 @@ import Props from './Props.jsx'
 import Buttons from './Buttons.jsx'
 import UseState from './UseStatee.jsx'
 import UseEffectt from './UseEffectt.jsx'
+import Coba from './Coba.jsx'
 
 export default function App() {
   return (
     <>
-      <Header />
-      <MenuResto />
-      <TernaryOP />
-      <Object />
-      {/* <Buttons /> */}
-      <UseState />
-      <Props hari="Senin" mood="😂" bulan="January" />
-      <hr /> 
-      <Props hari="Selasa" mood="😊" bulan="February" />
-      <UseEffectt />
-
+      <Coba />
     </>
   )
 }
