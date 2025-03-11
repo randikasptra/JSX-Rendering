@@ -6,12 +6,12 @@ import Props from './Props.jsx'
 import Buttons from './Buttons.jsx'
 import UseState from './UseStatee.jsx'
 import UseEffectt from './UseEffectt.jsx'
-import Coba from './Coba.jsx'
+import UseMemo from './UseMemo.jsx'
 
 export default function App() {
   return (
     <>
-      <Coba />
+      <UseMemo />
     </>
   )
 }
